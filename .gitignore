@@ -1,0 +1,12 @@
+node_modules
+pnpm-lock.yaml
+.pnpm-store
+.DS_Store
+.env
+build
+.svelte-kit
+.storybook-static
+storybook-static
+dist
+.vite
+.idea

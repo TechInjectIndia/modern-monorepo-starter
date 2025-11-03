@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*", "svelte.config.js", "postcss.config.cjs", "tailwind.config.cjs"],
+  "references": [{ "path": "./tsconfig.lib.json" }]
+}
